@@ -1,0 +1,74 @@
+main{
+background-color: var(--cinza-claro);
+min-height: 80vh;
+}
+
+.secaoHome {
+  padding: 4rem 2rem;
+}
+
+.bgClaro {
+  background-color: var(--cinza-claro);
+}
+
+.bgEscuro {
+  background-color: var(--cinza-escuro);
+  color: var(--branco);
+}
+
+.conteudoHome {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.textoHome {
+  flex: 1 1 450px;
+}
+
+.textoHome h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--cor-primaria);
+}
+
+.bgEscuro .textoHome h2 {
+  color: var(--branco);
+}
+
+.textoHome p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.imagemHome {
+  flex: 1 1 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagemHome img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btnPrimario {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: var(--branco);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1rem;
+}
+
+.btnPrimario:hover {
+  background-color: var(--cor-primaria-escura);
+  transform: scale(1.05);
+}
