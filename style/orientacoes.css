@@ -1,0 +1,53 @@
+.infos {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.infos h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.infos p {
+  font-size: 1.2rem;    
+}
+
+.botoes-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.botao-evento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--cor-primaria);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+}
+
+.botao-evento i {
+  font-size: 1.2rem;
+}
+
+.botao-evento:hover {
+  background-color: var(--cor-primaria-escura);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .botoes-container {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}

@@ -1,6 +1,6 @@
-main{
-background-color: var(--cinza-claro);
-min-height: 80vh;
+main {
+  background-color: var(--cinza-claro);
+  min-height: 80vh;
 }
 
 .secaoHome {

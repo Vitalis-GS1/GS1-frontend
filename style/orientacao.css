@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orientaTittle{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.orientaTittle h1{
+    font-size: 3.3rem;
+}
+
+.orientaTittle i{
+    font-size: 2rem;
+}
+
+.card-orientacao {
+  background-color: var(--branco);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 1rem;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 8px 10px 19px 6px rgba(0,0,0,0.54);
+-webkit-box-shadow: 8px 10px 19px 6px rgba(0,0,0,0.54);
+-moz-box-shadow: 8px 10px 19px 6px rgba(0,0,0,0.54);
+}
+
+.card-orientacao h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--cor-primaria);
+}
+
+.card-orientacao p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.card-orientacao ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.card-orientacao li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
