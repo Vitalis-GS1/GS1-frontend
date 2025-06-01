@@ -35,6 +35,10 @@ header {
   padding: 0.8rem 2rem;
 }
 
+#selected{
+  color: var(--cor-primaria);
+}
+
 .mainTitle {
   color: var(--branco);
   font-size: 1.8rem;
