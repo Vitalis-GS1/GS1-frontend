@@ -1,0 +1,112 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+}
+
+.Imageleft {
+    margin-top: 4rem;
+  max-width: 400px;
+  padding: 1rem;
+  flex: 1 1 300px;
+}
+
+.Imageleft img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.faq {
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 900px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0px 10px 19px -4px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 10px 19px -4px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 10px 19px -4px rgba(0,0,0,0.55);
+}
+
+.faq-titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 600;
+    color: var(--cor-primaria-escura);
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--preto);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.faq-toggle:hover {
+    color: var(--cor-primaria-escura);
+}
+
+.faq-toggle .icon {
+    font-size: 1.1rem;
+    color: var(--cor-primaria-escura);
+    transition: transform 0.3s;
+}
+
+.faq-pergunta {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.faq-resposta {
+    margin-left: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0.2rem;
+    padding: 0.8rem 1rem;
+    border-left: 4px solid var(--cor-primaria-escura);
+    border-radius: 4px;
+}
+.hidden{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .faq {
+        width: 95%;
+        padding: 1.5rem 1rem;
+    }
+
+    .faq-resposta {
+        margin-left: 0;
+        font-size: 0.95rem;
+    }
+
+    .faq-toggle {
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+
+    .faq-toggle .icon {
+        font-size: 1rem;
+    }
+
+    .faq-pergunta {
+        font-size: 1rem;
+    }
+}
