@@ -7,3 +7,10 @@
       header.classList.remove('scrolled');
     }
   });
+
+  const hamburguer = document.getElementById("hamburguer");
+  const menu = document.getElementById("menuMobile");
+
+  hamburguer.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });

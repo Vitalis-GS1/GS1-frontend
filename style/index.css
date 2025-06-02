@@ -17,11 +17,11 @@ main {
 }
 
 .conteudoHome {
-  max-width: 1100px;
+  width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 2rem;
 }
@@ -71,4 +71,36 @@ main {
 .btnPrimario:hover {
   background-color: var(--cor-primaria-escura);
   transform: scale(1.05);
+}
+
+@media (max-width: 1230px) {
+  .imagemHome img {
+    max-width: 40%;
+    height: auto;
+}
+}
+
+@media (max-width: 768px) {
+  .conteudoHome {
+    align-items: center;
+    text-align: center;
+  }
+
+  .imagemHome img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .textoHome h2 {
+    font-size: 1.6rem;
+  }
+
+  .textoHome p {
+    font-size: 1rem;
+  }
+
+  .btnPrimario {
+    width: 100%;
+    max-width: 300px;
+  }
 }
