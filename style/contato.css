@@ -1,0 +1,141 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.contatoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: var(--branco);
+    border-radius: 12px;
+    padding: 3rem;
+    box-shadow: 0 8px 24px rgba(112,112,112,0.3);
+}
+
+.contatoWrapper {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 3rem;
+}
+
+.imagemContato,
+.contatoContainer {
+    flex: 0 0 50%;
+}
+
+.imagemContato{
+    display: flex;
+    align-items: center;
+}
+
+.imagemContato img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.errorMsg{
+    color: red;
+    display: none;
+}
+
+.tituloContato {
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    color: var(--cor-primaria-escura);
+    margin-bottom: 2rem;
+}
+
+.formContato {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formContato label {
+    font-weight: 600;
+    color: var(--preto);
+    font-size: 1rem;
+}
+
+.formContato input,
+.formContato textarea {
+    padding: 0.8rem;
+    background-color: var(--branco);
+    border-radius: 8px;
+    border: 1px solid var(--cinza-claro);
+    font-size: 1rem;
+    width: 100%;
+}
+
+.formContato input:focus,
+.formContato textarea:focus {
+    border-color: var(--preto);
+    outline: none;
+}
+
+.formContato button {
+    padding: 0.9rem;
+    align-self: center;
+    background-color: var(--cor-primaria-escura);
+    color: var(--branco);
+    font-weight: 600;
+    width: 20%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formContato button:hover {
+    background-color: var(--cor-primaria);
+}
+
+.infoContato {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    color: #333;
+}
+
+.infoContato h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--roxo-escuro);
+}
+
+.infoContato p {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+input.erro,
+textarea.erro {
+    border: 2px solid red;
+    background-color: var(--branco);
+}
+
+@media (max-width: 768px) {
+    .tituloContato {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .tituloContato {
+        font-size: 1.2rem;
+    }
+}

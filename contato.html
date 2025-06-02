@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato</title>
   <link rel="stylesheet" href="style/styleGlobal.css">
+  <link rel="stylesheet" href="style/contato.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
@@ -29,7 +30,50 @@
     </nav>
   </header>
   <main>
+     <div class="contatoWrapper">
+        <div class="imagemContato">
+          <img src="image/contact-us-animate.svg" alt="Pessoa usando sistema" />
+        </div>
+    <section class="contatoContainer">
+          <h2 class="tituloContato">Fale com a gente</h2>
+          <form id="formulario" class="formContato">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu nome"
+            />
+            <p id="obrigaNome" class="errorMsg">É obrigatório preencher o nome</p>
 
+            <label for="email">E-mail:</label>
+            <input
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+            />
+            <p id="obrigaEmail" class="errorMsg">É obrigatório preencher o e-mail</p>
+            <p id="formatoEmail" class="errorMsg">Formato de e-mail inválido</p>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Escreva sua mensagem..."
+            ></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+
+          <div class="infoContato">
+            <h3>Outros meios de contato</h3>
+            <p>Email: contato@atendeplus.com.br</p>
+            <p>Telefone: (11) 91234-5678</p>
+            <p>Endereço: Av. das Nações, 1234 - São Paulo, SP</p>
+          </div>
+        </section>
+        </div>
   </main>
 <footer>
     <div class="iconslogo">
@@ -44,6 +88,7 @@
       </div>
     </div>
   </footer>
+  <script src="script/scriptGlobal.js"></script>
 </body>
 
 </html>

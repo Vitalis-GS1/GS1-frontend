@@ -1,14 +1,15 @@
 main {
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 1rem;
     flex-wrap: wrap;
+    padding-bottom: 3rem;
 }
 
 .Imageleft {
     margin-top: 4rem;
   max-width: 400px;
   padding: 1rem;
+  margin-top: 2rem;
   flex: 1 1 300px;
 }
 
@@ -20,6 +21,7 @@ main {
 
 
 .faq {
+    margin-top: 2rem;
     padding: 2rem 1rem;
     width: 100%;
     max-width: 900px;

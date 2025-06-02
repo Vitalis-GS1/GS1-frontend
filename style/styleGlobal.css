@@ -23,16 +23,27 @@ body {
 }
 
 main{
-    min-height: 80vh;
+    padding-top: 80px;
+    min-height: 90vh;
 }
-
 
 header {
   display: flex;
+  position: fixed;
+  max-height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+   z-index: 1000;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--preto);
+  background-color: var(--cinza-claro);
   padding: 0.8rem 2rem;
+  transition: box-shadow 0.3s ease, margin-bottom 0.3s ease;
+}
+
+.scrolled{
+  border-bottom: 1px solid #b8b7b7;
 }
 
 #selected{
@@ -40,7 +51,7 @@ header {
 }
 
 .mainTitle {
-  color: var(--branco);
+
   font-size: 1.8rem;
 }
 
@@ -59,7 +70,7 @@ header {
 
 .linkItemMenuHeader {
   text-decoration: none;
-  color: var(--branco);
+  color: var(--preto);
   font-weight: 500;
   position: relative;
   padding-bottom: 5px;
