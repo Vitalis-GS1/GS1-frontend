@@ -119,7 +119,6 @@ footer {
   height: auto;
   position: relative;
   top: 18px;
-  margin: -32px;
 }
 
 .iconsFooter {
@@ -130,7 +129,7 @@ footer {
 }
 
 .iconFooter {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: var(--cor-primaria);
   transition: transform 0.3s ease, color 0.3s ease;
   cursor: pointer;
@@ -144,7 +143,7 @@ footer {
 .copy {
   color: var(--branco);
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .hamburguer {
@@ -191,6 +190,7 @@ footer {
     padding: 1rem 0;
     border-top: 1px solid #aaa;
   }
+
 }
 
 @media (max-width: 900px) {
@@ -201,6 +201,7 @@ footer {
   .copy {
     font-size: 0.85rem;
   }
+   
 }
 
 @media (max-width: 768px) {
@@ -225,5 +226,7 @@ footer .iconslogo {
 }
 
 @media (max-width: 600px) {
-  
+  .iconsFooter{
+    margin-top: 1rem;
+  }
 }
