@@ -43,11 +43,6 @@ main{
     border-radius: 12px;
 }
 
-.errorMsg{
-    color: red;
-    display: none;
-}
-
 .tituloContato {
     text-align: center;
     font-size: clamp(1.5rem, 5vw, 2.5rem);
@@ -121,10 +116,29 @@ main{
     white-space: normal;
 }
 
-input.erro,
-textarea.erro {
-    border: 2px solid red;
-    background-color: var(--branco);
+@media (max-width: 1024px) {
+  .contatoWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagemContato,
+  .contatoContainer {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .imagemContato img {
+    max-height: 300px;
+  }
+
+  .contatoContainer {
+    padding: 2rem;
+  }
+
+  .formContato button {
+    width: 40%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -132,10 +146,50 @@ textarea.erro {
         font-size: 1.5rem;
     }
 
+     .contatoWrapper {
+    gap: 1.5rem;
+  }
+
+  .formContato button {
+    width: 60%;
+  }
+
 }
 
 @media (max-width: 480px) {
     .tituloContato {
         font-size: 1.2rem;
     }
+
+      .contatoContainer {
+    padding: 1.5rem;
+  }
+
+  .formContato input,
+  .formContato textarea {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  .formContato button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .infoContato h3 {
+    font-size: 1rem;
+  }
+
+  .infoContato p {
+    font-size: 0.9rem;
+  }
+
+  .tituloContato {
+    font-size: 1.3rem;
+  }
+
+  .imagemContato img {
+    max-height: 200px;
+  }
 }
+

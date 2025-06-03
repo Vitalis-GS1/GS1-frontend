@@ -1,35 +1,43 @@
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  justify-content: center;
+ 
 }
 
-.orientaTittle{
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.container-orientacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
 }
 
-.orientaTittle h1{
-    font-size: 3.3rem;
+.orientaTittle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, rgba(159, 17, 27, 1) 25%, rgba(231, 41, 57, 1) 77%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.orientaTittle i{
-    font-size: 2rem;
+.orientaTittle h1 {
+  font-size: 3.3rem;
+}
+
+.orientaTittle i {
+  font-size: 2rem;
 }
 
 .card-orientacao {
   background-color: var(--branco);
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 10px 19px 6px rgba(0, 0, 0, 0.54);
   padding: 2rem;
-  margin: 2rem 1rem;
-  max-width: 1000px;
+  margin-bottom: 3rem;
   width: 100%;
-  box-shadow: 8px 10px 19px 6px rgba(0,0,0,0.54);
--webkit-box-shadow: 8px 10px 19px 6px rgba(0,0,0,0.54);
--moz-box-shadow: 8px 10px 19px 6px rgba(0,0,0,0.54);
 }
 
 .card-orientacao h2 {
@@ -40,7 +48,6 @@ main{
 
 .card-orientacao p {
   font-size: 1.1rem;
-  margin-bottom: 1rem;
   line-height: 1.6;
 }
 
@@ -50,7 +57,102 @@ main{
 }
 
 .card-orientacao li {
-  margin-bottom: 0.5rem;
   font-size: 1rem;
   line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.grade-botoes {
+  width: 100%;
+}
+
+.botoes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.botao-evento {
+  background-color: var(--cor-primaria);
+  color: var(--branco);
+  padding: 1rem 1.5rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.botao-evento:hover {
+  background-color: var(--cor-secundaria);
+}
+
+@media (max-width: 1200px) {
+  .orientaTittle h1 {
+    font-size: 3rem;
+  }
+
+  .card-orientacao h2 {
+    font-size: 1.8rem;
+  }
+
+  .card-orientacao p,
+  .card-orientacao li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .orientaTittle h1 {
+    font-size: 2.6rem;
+  }
+
+  .botao-evento {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .orientaTittle h1 {
+    font-size: 2.2rem;
+  }
+
+  .botoes-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .botao-evento {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .orientaTittle h1 {
+    font-size: 1.8rem;
+  }
+
+  .orientaTittle i {
+    font-size: 1.5rem;
+  }
+
+  .card-orientacao h2 {
+    font-size: 1.4rem;
+  }
+
+  .card-orientacao p,
+  .card-orientacao li {
+    font-size: 0.95rem;
+  }
+
+  .botao-evento {
+    font-size: 0.95rem;
+    padding: 0.8rem 1rem;
+  }
 }

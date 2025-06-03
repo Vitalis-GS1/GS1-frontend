@@ -1,3 +1,9 @@
+main{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-bottom: 3rem;
+}
+
 .infos {
   text-align: center;
   margin: 2rem auto;
@@ -7,6 +13,10 @@
 .infos h1 {
   font-size: 4rem;
   margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, rgba(159, 17, 27, 1) 25%, rgba(231, 41, 57, 1) 77%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .infos p {
@@ -46,8 +56,12 @@
   transform: translateY(-2px);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .botoes-container {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .infos h1 {
+    font-size: 3rem !important;
   }
 }
