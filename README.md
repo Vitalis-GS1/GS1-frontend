@@ -13,3 +13,10 @@ O objetivo do nosso projeto é proteger vidas e fortalecer a resposta da socieda
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![IBM Watson](https://img.shields.io/badge/IBM%20Watsonx-00AEEF?style=for-the-badge&logo=ibm&logoColor=white)
+
+## Integrantes 
+
+- [Ana Flavia Camelo - RM561489](https://github.com/afcamelo)
+- [Gustavo Kenji Terada - RM562745](https://github.com/Gkenji110)
+- [João Guilherme Carvalho Novaes - RM566234](https://github.com/JoaoGuiNovaes)
+
