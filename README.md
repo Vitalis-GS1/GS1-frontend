@@ -20,3 +20,8 @@ O objetivo do nosso projeto é proteger vidas e fortalecer a resposta da socieda
 - [Gustavo Kenji Terada - RM562745](https://github.com/Gkenji110)
 - [João Guilherme Carvalho Novaes - RM566234](https://github.com/JoaoGuiNovaes)
 
+## Endereço do repositório
+
+[GS1-frontend](https://github.com/Vitalis-GS1/GS1-frontend.git)
+
+https://github.com/Vitalis-GS1/GS1-frontend.git
