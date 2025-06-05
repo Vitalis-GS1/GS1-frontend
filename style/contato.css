@@ -116,6 +116,17 @@ main{
     white-space: normal;
 }
 
+input.erro,
+textarea.erro {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+.errorMsg{
+    color: red;
+    display: none;
+}
+
 @media (max-width: 1024px) {
   .contatoWrapper {
     flex-direction: column;
