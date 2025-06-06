@@ -35,3 +35,4 @@
     t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   }, 0);
+  
