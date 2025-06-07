@@ -37,7 +37,7 @@ main{
   justify-content: center;
   gap: 0.5rem;
   padding: 1rem;
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-primaria-escura);
   color: white;
   text-decoration: none;
   border-radius: 0.5rem;

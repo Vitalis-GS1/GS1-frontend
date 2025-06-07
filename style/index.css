@@ -31,7 +31,7 @@ main {
 }
 
 .textoHome h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-bottom: 1rem;
   color: var(--cor-primaria);
 }
@@ -41,7 +41,7 @@ main {
 }
 
 .textoHome p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
