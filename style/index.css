@@ -77,6 +77,17 @@ main {
   .imagemHome img {
     max-width: 40%;
     height: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .textoHome h2 {
+    font-size: 1.9rem;
+  }
+
+  .textoHome p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 }
 
