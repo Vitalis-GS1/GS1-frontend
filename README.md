@@ -6,6 +6,64 @@ O objetivo do nosso projeto é proteger vidas e fortalecer a resposta da socieda
 
 ## Estrutura de pastas e arquivos
 
+<pre>
+GS1-FRONTEND/
+│
+├── image/
+│   ├── anaflavia.jpeg
+│   ├── charity-animate.svg
+│   ├── chat-bot-animate.svg
+│   ├── chatboticon.png
+│   ├── climate-change-animate.svg
+│   ├── contact-us-animate.svg
+│   ├── faq-animate.svg
+│   ├── favicon.png
+│   ├── github.png
+│   ├── gustavoterada.jpeg
+│   ├── humanitarian-help-animate.svg
+│   ├── joaoguilherme.jpeg
+│   ├── linkedin.png
+│   ├── logosemfundo.png
+│   ├── printGraficosPython.png
+│   ├── printTerminalJava.png
+│   └── printTerminalPython.png
+│
+├── orientacoes/
+│   ├── baixaTemperatura.html
+│   ├── calorExtremo.html
+│   ├── estiagem.html
+│   ├── inundacoes.html
+│   ├── tempestade.html
+│   └── vendaval.html
+│
+├── script/
+│   ├── ScriptContato.js
+│   ├── scriptFaq.js
+│   └── ScriptGlobal.js
+│
+├── style/
+│   ├── chatbot.css
+│   ├── contato.css
+│   ├── doacoes.css
+│   ├── faq.css
+│   ├── gerenciador.css
+│   ├── index.css
+│   ├── integrantes.css
+│   ├── orientacao.css
+│   ├── orientacoes.css
+│   └── styleGlobal.css
+│
+├── chatbot.html
+├── contato.html
+├── doacoes.html
+├── faq.html
+├── gerenciador.html
+├── index.html
+├── integrantes.html
+├── orientacoes.html
+└── README.md
+</pre>
+
 
 ## Tecnologias utilizadas
 
